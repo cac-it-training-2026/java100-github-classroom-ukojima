@@ -19,5 +19,14 @@
 package jp.co.sss.java100_questions_cac.lesson01.challenge02;
 
 public class Patisserie {
+	public static void main(String[] args) {
+		String[] names = { "シトロン", "ショコラ", "ピスターシュ" };
+		int[] prices = { 250, 280, 320 };
+
+		for (int i = 0; i < names.length; i++) {
+			System.out.println(names[i] + "   " + "\\" + prices[i]);
+		}
+
+	}
 
 }
