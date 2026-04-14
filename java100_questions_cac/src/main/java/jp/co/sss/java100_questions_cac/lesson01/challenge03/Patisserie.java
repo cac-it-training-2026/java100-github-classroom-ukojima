@@ -22,5 +22,15 @@
 package jp.co.sss.java100_questions_cac.lesson01.challenge03;
 
 public class Patisserie {
+	public static void main(String args) {
+
+		int shitoNum = 30;
+		int shokoNum = 30;
+		int pisuNum = 30;
+		System.out.println("本日のおすすめ商です。");
+		System.out.println("シトロン　　　" + " ・・・" + "残り" + shitoNum + "個");
+		System.out.println("ショコラ　　　" + " ・・・" + "残り" + shokoNum + "個");
+		System.out.println("ピスターシュ" + " ・・・" + "残り" + pisuNum + "個");
+	}
 
 }
